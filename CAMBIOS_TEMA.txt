@@ -1,0 +1,13 @@
+MODO CLARO / OSCURO AUTOMÁTICO
+
+- Primera visita: usa la preferencia del sistema o navegador.
+- El visitante puede elegir Automático, Claro u Oscuro desde el encabezado.
+- La elección manual se guarda en el navegador.
+- En modo Automático, la web cambia si cambia la apariencia del dispositivo.
+- Se mantuvieron estructura, textos, imágenes, precios y enlaces existentes.
+
+Archivos agregados:
+- assets/theme.css
+- assets/theme.js
+
+Todos los HTML fueron actualizados para cargar el tema y mostrar el selector.

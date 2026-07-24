@@ -1,0 +1,14 @@
+Bill Counter Argentina - Ajustes aprobados v8
+
+- Mantiene la estructura, textos, precios, enlaces y estética indicada.
+- Título principal en una línea en escritorio.
+- Tipografía del texto principal ampliada.
+- Frase repetida eliminada del header.
+- Banderas SVG reales para visualización consistente entre navegadores.
+- Video institucional existente con inicio automático silenciado y volumen al 12% al activar audio.
+- Mensajes de respaldo distribuidos sin repeticiones.
+- Etiquetas superiores de las contadoras reemplazadas por nombres Bill Counter.
+- Etiquetas de clasificadoras conservadas.
+- Primer renglón de imágenes sin cambios.
+- CB1000 centrada y ampliada; CB3000 5% mayor; CB4000 6% mayor que CB3000.
+- Ningún otro contenido o enlace fue alterado.

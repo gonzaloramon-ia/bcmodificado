@@ -670,3 +670,10 @@ h2{font-size:clamp(30px,3.9vw,48px);letter-spacing:-.025em;}
   .authority-item:nth-child(5){grid-column:auto}
   .catalog-label{font-size:9px;min-height:30px;padding:7px 9px}
 }
+
+
+/* v7 browser-independent country flags */
+.flaglink:not(.global-link){font-size:0!important;line-height:0}
+.flaglink:not(.global-link) img{display:block;width:30px;height:20px;object-fit:cover;border:1px solid rgba(148,163,184,.55);border-radius:2px}
+.header-lang .flaglink:not(.global-link),.langs .flaglink:not(.global-link),.mobile-flags .flaglink:not(.global-link){padding:3px 4px}
+@media(max-width:560px){.flaglink:not(.global-link) img{width:25px;height:17px}}
