@@ -1,0 +1,7 @@
+Bill Counter nueva v5: respaldo técnico, video institucional y catálogo diferenciado. Subir el contenido completo del ZIP al repo de GitHub Pages. No incluye CNAME para no mover todavía el dominio real.
+
+Antes de reemplazar www.billcounter.com.ar:
+1) Cambiar robots.txt para permitir el rastreo y declarar el sitemap.
+2) Subir el CNAME correcto para www.billcounter.com.ar.
+3) Verificar que GitHub Pages publique desde la rama y carpeta correctas.
+4) Revisar en móvil el inicio, el catálogo, las fichas y los enlaces de WhatsApp.

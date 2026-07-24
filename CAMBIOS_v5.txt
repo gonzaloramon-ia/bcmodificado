@@ -1,0 +1,21 @@
+Bill Counter Argentina - cambios de esta versión
+
+INICIO
+- Video institucional incorporado en el espacio visual principal, sin reproducción automática.
+- Nueva sección de respaldo técnico con mensajes jerarquizados y sin repetir la garantía en varios bloques.
+- Diferenciación visible de cada modelo: entrada económica, uso diario, mayor capacidad, carga superior, 1 bolsillo y 2 bolsillos.
+- Comparativa simplificada: se eliminó la columna de garantía repetida y se agregó arquitectura del equipo.
+- CB4000: se destacó el beneficio real del segundo bolsillo.
+- Sección institucional reescrita para evitar repetir soporte, garantía y envíos.
+
+FICHAS DE PRODUCTO
+- La garantía y las actualizaciones se comunican una sola vez por ficha.
+- Se eliminó la repetición de garantía en rendimiento, información comercial y pie de página.
+- CB1000 corregida como contadora profesional de carga superior: hasta 500 billetes, 1200 billetes/min y detección UV/MG1/MG2/IR.
+- CB4000: se agregó la separación de rechazos sin detener el conteo principal.
+
+SERVICE Y CONSISTENCIA
+- Service actualizado para reflejar taller técnico propio y reparación multimarca.
+- Pies de página españoles unificados sin repetir la garantía.
+- Etiquetas de categoría aplicadas en inicio, catálogo, contadoras y clasificadoras.
+- Enlaces y archivos locales verificados: no se detectaron referencias rotas.
