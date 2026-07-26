@@ -65,13 +65,13 @@
     var lang = (document.documentElement.lang || "es").toLowerCase();
     var labels;
     if (lang.indexOf("fr") === 0) {
-      labels = { group: "Apparence du site", system: "Automatique", light: "Mode clair", dark: "Mode sombre" };
+      labels = { group: "Apparence du site", system: "Auto", light: "Clair", dark: "Sombre" };
     } else if (lang.indexOf("ja") === 0) {
-      labels = { group: "サイトの外観", system: "自動", light: "ライトモード", dark: "ダークモード" };
+      labels = { group: "サイトの外観", system: "自動", light: "明るい", dark: "暗い" };
     } else if (lang.indexOf("en") === 0) {
-      labels = { group: "Site appearance", system: "Automatic", light: "Light mode", dark: "Dark mode" };
+      labels = { group: "Site appearance", system: "Auto", light: "Light", dark: "Dark" };
     } else {
-      labels = { group: "Apariencia del sitio", system: "Automático", light: "Modo claro", dark: "Modo oscuro" };
+      labels = { group: "Apariencia del sitio", system: "Auto", light: "Claro", dark: "Oscuro" };
     }
 
     document.querySelectorAll(".theme-selector").forEach(function (group) {
@@ -81,6 +81,8 @@
       var mode = button.getAttribute("data-theme-choice");
       button.setAttribute("aria-label", labels[mode]);
       button.setAttribute("title", labels[mode]);
+      var visibleLabel = button.querySelector(".theme-option-label");
+      if (visibleLabel) visibleLabel.textContent = labels[mode];
     });
   }
 
@@ -97,5 +99,12 @@
   }
 
   localizeControls();
+  if (window.MutationObserver) {
+    new MutationObserver(function (mutations) {
+      if (mutations.some(function (m) { return m.type === "attributes" && m.attributeName === "lang"; })) {
+        localizeControls();
+      }
+    }).observe(document.documentElement, { attributes: true, attributeFilter: ["lang"] });
+  }
   applyTheme(readSavedMode(), false);
 })();
